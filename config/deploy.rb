@@ -1,7 +1,7 @@
 # config valid only for current version of Capistrano
 lock '3.6.0'
 
-server '192.168.2.103', port: 22, roles: [:db, :app]
+server '192.168.2.103', port: 22, roles: [:db, :app, :web]
 
 set :application, 'photoserve'
 set :repo_url, 'git@github.com:kaninfod/photoserve.git'
