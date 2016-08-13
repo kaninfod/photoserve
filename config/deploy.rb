@@ -63,7 +63,7 @@ namespace :deploy do
       invoke 'puma:restart'
     end
   end
-
+end
 
 
 # Default branch is :master
