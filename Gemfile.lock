@@ -153,6 +153,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
+  capistrano-bundler
   capistrano-rails
   capistrano3-puma
   jbuilder
